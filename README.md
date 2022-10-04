@@ -3,7 +3,7 @@ Vim colors and vimrc/init.vim for vim/neovim
 # How to use
 ## Windows
 ### Using colors
-Paste colors folder to `C:\Program Files(x86)\Vim`  or inside `C:\tools\neovim\Neovim\share\nvim\runtime\` in case of neovim
+Paste colors folder to `C:\Program Files(x86)\Vim`  or inside `C:\tools\neovim\Neovim\share\nvim\runtime\` OR `C:\Program Files\Neovim\share\nvim\runtime` in case of neovim
 
 If you can't find Vim in `Program Files(x86)`, check in `Program Files` it maybe that you have installed 64 bit vim.
 
