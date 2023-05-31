@@ -114,7 +114,7 @@ set shortmess+=c
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Default Settings by VIM
 
-source $VIMRUNTIME/vimrc_example.vim
+" source $VIMRUNTIME/vimrc_example.vim don't need this now to load vim configs
 
 " Use the internal diff if available.
 " Otherwise use the special 'diffexpr' for Windows.
