@@ -1,6 +1,16 @@
 Vim colors and vimrc/init.vim for vim/neovim
 
 # How to use
+
+## Get Vim Plug
+
+First download Vim Plug as the init.vim and vimrc are using vim plug as plugin manager.
+
+For Vim, download the plug.vim file from [vim plug](https://github.com/junegunn/vim-plug) repo and save it in autoload folder
+Run :PlugInstall
+
+For Neovim, run the command listed on the vim plug site to download vim plug.
+
 ## Windows
 ### Using colors
 Paste colors folder to `C:\Program Files(x86)\Vim`  or inside `C:\tools\neovim\Neovim\share\nvim\runtime\` OR 
