@@ -100,8 +100,6 @@ set incsearch
 set termguicolors
 set scrolloff=8
 
-:colorscheme torte
-
 " Give more space for displaying messages.
 
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
@@ -357,4 +355,4 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 set background=dark
-colorscheme moonfly
+colorscheme torte
