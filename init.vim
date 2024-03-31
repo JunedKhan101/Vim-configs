@@ -12,11 +12,21 @@ let mapleader = " "
 set laststatus=2
 set noshowmode
 
-cd E:\JK\Dev
-map <C-n> :NERDTreeToggle<CR>
+cd C:\Dev
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Nerd Tree settings
+nnoremap <leader>n :NERDTreeFocus<CR>
+map <C-ntt> :NERDTreeToggle<CR>
 " open Nerd Tree in folder of file in active buffer
 map <Leader>nt :NERDTree %:p:h<CR>
+autocmd VimEnter * NERDTree
+" Close the tab if NERDTree is the only window remaining in it.
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+" If another buffer tries to replace NERDTree, put it in the other window, and bring back NERDTree.
+autocmd BufEnter * if winnr() == winnr('h') && bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_tree_\d\+' && winnr('$') > 1 |
+    \ let buf=bufnr() | buffer# | execute "normal! \<C-W>w" | execute 'buffer'.buf | endif
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Tabs Settings
 map <C-t><up> :tabr<cr>
