@@ -7,9 +7,9 @@ Vim colors and vimrc/init.vim for vim/neovim
 First download Vim Plug as the init.vim and vimrc are using vim plug as plugin manager.
 
 For Vim, download the plug.vim file from [vim plug](https://github.com/junegunn/vim-plug) repo and save it in autoload folder
-Run :PlugInstall
+Run `:PlugInstall`
 
-For Neovim, run the command listed on the vim plug site to download vim plug.
+For Neovim, run the command listed on the vim plug repo to download vim plug.
 
 ## Windows
 ### Using colors
