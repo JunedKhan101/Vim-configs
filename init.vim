@@ -16,7 +16,7 @@ cd C:\Dev
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Nerd Tree settings
 nnoremap <leader>n :NERDTreeFocus<CR>
-map <C-ntt> :NERDTreeToggle<CR>
+map <Leader>ntt :NERDTreeToggle<CR>
 " open Nerd Tree in folder of file in active buffer
 map <Leader>nt :NERDTree %:p:h<CR>
 autocmd VimEnter * NERDTree
